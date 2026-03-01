@@ -1,0 +1,27 @@
+[Running] python -u "c:\Desktop\intern\performance_and_optimization\process_and_insert.py"
+1 Million Records Inserted Successfully!
+
+[Done] exited with code=0 in 5.291 seconds
+
+[Running] python -u "c:\Desktop\intern\performance_and_optimization\query_before_optimization.py"
+BEFORE OPTIMIZATION:
+
+Query 1 Time: 0.1034696102142334
+Query 2 Time: 0.11552762985229492
+Query 3 Time: 0.6779806613922119
+
+[Done] exited with code=0 in 1.187 seconds
+
+[Running] python -u "c:\Desktop\intern\performance_and_optimization\apply_optimization.py"
+Indexes Applied Successfully!
+
+[Done] exited with code=0 in 1.329 seconds
+
+[Running] python -u "c:\Desktop\intern\performance_and_optimization\query_after_optimization.py"
+AFTER OPTIMIZATION:
+
+Query 1 Time: 0.01595449447631836
+Query 2 Time: 0.03262138366699219
+Query 3 Time: 0.7584700584411621
+
+[Done] exited with code=0 in 1.096 seconds
